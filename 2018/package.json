@@ -1,0 +1,12 @@
+{
+  "name": "advent-of-code-2018",
+  "version": "1.0.0",
+  "description": "Solutions to the advent of code challenges 2018",
+  "main": "index.js",
+  "scripts": {
+  	"solve": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashley Grealish",
+  "license": "ISC"
+}
