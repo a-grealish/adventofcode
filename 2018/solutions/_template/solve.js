@@ -1,4 +1,4 @@
-
+var utils = require('../../common/utils');
 
 function solve(input) {
 	return {
