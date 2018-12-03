@@ -1,10 +1,13 @@
 
 
 function solve(input) {
-	console.log(input);
-	
+	var sum = 0;
+	for (var item of input) {
+		sum += parseInt(item) || 0;
+	}
+
 	return {
-		'part1': 'part1_result_placeholder',
+		'part1': sum,
 		'part2': 'part2_result_placeholder'
 	}
 }

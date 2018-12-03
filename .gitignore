@@ -1,2 +1,5 @@
+
 **/.ipynb_checkpoints*
 **/node_modules/*
+**/.DS_STORE
+.tern-project
