@@ -2,7 +2,8 @@
 
 ## 2018
 Solutions implemented in **node.js** with cli.
-```node solve 1``` will generate the solution for day 1
+```yarn solve 1``` will generate the solution for day 1
+```yarn test``` will run tests for all days
 
 
 ## 2017
