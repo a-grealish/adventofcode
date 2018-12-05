@@ -13,8 +13,15 @@ function parseInts(stings) {
 	}).filter(isNotNaN);
 }
 
+function trimList(strings) {
+	return strings.map(function(x){
+		return x.trim()
+	})
+}
+
 module.exports = {
 	'split_string_by_newline': split_string_by_newline,
 	'isNotNaN': isNotNaN,
-	'parseInts': parseInts
+	'parseInts': parseInts,
+	'trimList': trimList
 }
