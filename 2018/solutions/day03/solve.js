@@ -6,8 +6,6 @@ function solve(input) {
 	let claimsOverlapped = {};
 
 	for (claim of input) {
-		if (claim == "")
-			break;
 
 		let [claimId, _, startPos, size] = claim.split(' ');
 		claimId = parseInt(claimId.replace('#', ''));
